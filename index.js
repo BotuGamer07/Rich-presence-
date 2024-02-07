@@ -34,8 +34,8 @@ client.on('ready', async () => {
     .setAssetsLargeText('Botu') //Text when you hover the Large image
     .setAssetsSmallImage('https://media.discordapp.net/attachments/1191074543469592597/1201418095185641532/20240115_073430.gif?ex=65c9becb&is=65b749cb&hm=27e98260be09cb8ab720ce2961ed2db3b66917333a3a26f10a959d59df22fccc&') //You can put links in tenor or discord and etc.
     .setAssetsSmallText('op') //Text when you hover the Small image
-    .addButton('ImDoremon ', 'https://discord.com/invite/hdtUhc8p')
-    .addButton('Botu op ', 'https://discord.com/invite/MHHfwyGn');
+    .addButton('WOLFISBACK ', 'https://discord.com/invite/xCyaZUyX2V')
+    .addButton('Botu OP ', 'https://discord.com/invite/MHHfwyGn');
 
   client.user.setActivity(r);
   client.user.setPresence({ status: "dnd" }); //dnd, online, idle, offline
