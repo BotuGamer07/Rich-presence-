@@ -27,15 +27,15 @@ client.on('ready', async () => {
     .setType('STREAMING')
     .setURL('https://twitch.tv/gemop') //Must be a youtube video link 
     .setState('Botu on Top')
-    .setName('BOTU GAMER')
+    .setName('Im Botu')
     .setDetails(`THE NAME IT SHOWS YOUR STREAMING [${formatTime()}]`)
     .setStartTimestamp(Date.now())
- .setAssetsLargeImage('https://media.discordapp.net/attachments/1200845159169015828/1204748029073031168/a_251d4e9c5504e98fa0d56832dc55da94.gif?ex=65d5dc09&is=65c36709&hm=71ff44ec5d5cdf2800af4fd2b1833b1fc4a6bcf488eec7863193d4d2907d9e77&') //You can put links in tenor or discord and etc.
+ .setAssetsLargeImage('https://media.discordapp.net/attachments/1200845159169015828/1211610871466561556/madara-uchiha.gif?ex=65eed38e&is=65dc5e8e&hm=3e7bfe1abe0f323cc5c926c5f7dc8688a5ce937eee4aae4796b1650f3ae6203a&') //You can put links in tenor or discord and etc.
     .setAssetsLargeText('Botu') //Text when you hover the Large image
-    .setAssetsSmallImage('https://media.discordapp.net/attachments/1191074543469592597/1201418095185641532/20240115_073430.gif?ex=65c9becb&is=65b749cb&hm=27e98260be09cb8ab720ce2961ed2db3b66917333a3a26f10a959d59df22fccc&') //You can put links in tenor or discord and etc.
-    .setAssetsSmallText('op') //Text when you hover the Small image
-    .addButton('WOLFISBACK ', 'https://discord.com/invite/xCyaZUyX2V')
-    .addButton('Botu OP ', 'https://discord.com/invite/MHHfwyGn');
+    .setAssetsSmallImage('https://media.discordapp.net/attachments/1200845159169015828/1211610871059447848/madara-madara-uchiha.gif?ex=65eed38e&is=65dc5e8e&hm=9dd39ddf577e64672752e17c2bf5abc0114fc065723989f97cb1443b7ec08a2e&') //You can put links in tenor or discord and etc.
+    .setAssetsSmallText('OP') //Text when you hover the Small image
+    .addButton('WOLFISBACK ', 'https://dsc.gg/wolfisback')
+    .addButton('Botu OP ', 'https://dsc.gg/botugamerop');
 
   client.user.setActivity(r);
   client.user.setPresence({ status: "dnd" }); //dnd, online, idle, offline
@@ -44,7 +44,7 @@ client.on('ready', async () => {
   setInterval(() => {
     const newTime = formatTime();
     if (newTime !== prevTime) {
-      const newDetails = `BOTU GAMER on Top [${newTime}]`;
+      const newDetails = `Botu on Top [${newTime}]`;
       r.setDetails(newDetails);
       client.user.setActivity(r);
       prevTime = newTime;
