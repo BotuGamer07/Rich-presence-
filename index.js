@@ -30,9 +30,9 @@ client.on('ready', async () => {
     .setName('Im Botu')
     .setDetails(`THE NAME IT SHOWS YOUR STREAMING [${formatTime()}]`)
     .setStartTimestamp(Date.now())
- .setAssetsLargeImage('https://media.discordapp.net/attachments/1200845159169015828/1211610871466561556/madara-uchiha.gif?ex=65eed38e&is=65dc5e8e&hm=3e7bfe1abe0f323cc5c926c5f7dc8688a5ce937eee4aae4796b1650f3ae6203a&') //You can put links in tenor or discord and etc.
+ .setAssetsLargeImage('https://media.discordapp.net/attachments/1200845159169015828/1211619932366966784/standard.gif?ex=65eedbfe&is=65dc66fe&hm=10f3afe5fc1ff4f0e9319d1412c5c9f0bd6b140dbb2cd07343be87132afcbf08&') //You can put links in tenor or discord and etc.
     .setAssetsLargeText('Botu') //Text when you hover the Large image
-    .setAssetsSmallImage('https://media.discordapp.net/attachments/1200845159169015828/1211610871059447848/madara-madara-uchiha.gif?ex=65eed38e&is=65dc5e8e&hm=9dd39ddf577e64672752e17c2bf5abc0114fc065723989f97cb1443b7ec08a2e&') //You can put links in tenor or discord and etc.
+    .setAssetsSmallImage('https://media.discordapp.net/attachments/1200845159169015828/1211619931834163301/standard_1.gif?ex=65eedbfe&is=65dc66fe&hm=142fd572e6a2792687c5e3219553f88987cfbdd2eca769a1c7840ebcf8b4baf5&') //You can put links in tenor or discord and etc.
     .setAssetsSmallText('OP') //Text when you hover the Small image
     .addButton('WOLFISBACK ', 'https://dsc.gg/wolfisback')
     .addButton('Botu OP ', 'https://dsc.gg/botugamerop');
