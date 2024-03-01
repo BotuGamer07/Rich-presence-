@@ -30,12 +30,12 @@ client.on('ready', async () => {
     .setName('Im Botu')
     .setDetails(`THE NAME IT SHOWS YOUR STREAMING [${formatTime()}]`)
     .setStartTimestamp(Date.now())
- .setAssetsLargeImage('https://media.discordapp.net/attachments/1200845159169015828/1211619932366966784/standard.gif?ex=65eedbfe&is=65dc66fe&hm=10f3afe5fc1ff4f0e9319d1412c5c9f0bd6b140dbb2cd07343be87132afcbf08&') //You can put links in tenor or discord and etc.
+ .setAssetsLargeImage('https://media.discordapp.net/attachments/1200845159169015828/1213004934371606558/kakashi-naruto.gif?ex=65f3e5e0&is=65e170e0&hm=09b5fae2da414e89494b38523e3b450480f2bf6900ba2ce8dd737eee2a1196fb&') //You can put links in tenor or discord and etc.
     .setAssetsLargeText('Botu') //Text when you hover the Large image
-    .setAssetsSmallImage('https://media.discordapp.net/attachments/1200845159169015828/1211619931834163301/standard_1.gif?ex=65eedbfe&is=65dc66fe&hm=142fd572e6a2792687c5e3219553f88987cfbdd2eca769a1c7840ebcf8b4baf5&') //You can put links in tenor or discord and etc.
+    .setAssetsSmallImage('https://media.discordapp.net/attachments/1200845159169015828/1213004992894730341/kakashi-hatake-anime.gif?ex=65f3e5ee&is=65e170ee&hm=0e28a23442ff122633586b1b7df022bb107c7eddfe552ac0f193902ee2cad2f6&') //You can put links in tenor or discord and etc.
     .setAssetsSmallText('OP') //Text when you hover the Small image
-    .addButton('WOLFISBACK ', 'https://dsc.gg/wolfisback')
-    .addButton('Botu OP ', 'https://dsc.gg/botugamerop');
+    .addButton('Im Botu ', 'https://youtube.com/@Imbotu?feature=shared')
+    .addButton('Im Botu ', 'https://dsc.gg/botugamerop');
 
   client.user.setActivity(r);
   client.user.setPresence({ status: "dnd" }); //dnd, online, idle, offline
