@@ -30,9 +30,9 @@ client.on('ready', async () => {
     .setName('Im Botu')
     .setDetails(`THE NAME IT SHOWS YOUR STREAMING [${formatTime()}]`)
     .setStartTimestamp(Date.now())
- .setAssetsLargeImage('https://media.discordapp.net/attachments/1200845159169015828/1213004934371606558/kakashi-naruto.gif?ex=65f3e5e0&is=65e170e0&hm=09b5fae2da414e89494b38523e3b450480f2bf6900ba2ce8dd737eee2a1196fb&') //You can put links in tenor or discord and etc.
+ .setAssetsLargeImage('https://media.discordapp.net/attachments/1217743630492500069/1218824472459612230/a_a790663307c1da9aaa975325da319a97.gif?ex=660911be&is=65f69cbe&hm=6ea9bdb0063becaa959067099046ceb341fb57c9a6788e35925d402ff8653552&') //You can put links in tenor or discord and etc.
     .setAssetsLargeText('Botu') //Text when you hover the Large image
-    .setAssetsSmallImage('https://media.discordapp.net/attachments/1200845159169015828/1213004992894730341/kakashi-hatake-anime.gif?ex=65f3e5ee&is=65e170ee&hm=0e28a23442ff122633586b1b7df022bb107c7eddfe552ac0f193902ee2cad2f6&') //You can put links in tenor or discord and etc.
+    .setAssetsSmallImage('https://media.discordapp.net/attachments/1217743630492500069/1218824405661122620/457d5404-3ffc-4714-a2ff-a00e5db93d26.jpg?ex=660911ae&is=65f69cae&hm=7d84f9f91804f01362bd6e648aea559fbe68c7752cd631cb873ae4865b6d7c53&') //You can put links in tenor or discord and etc.
     .setAssetsSmallText('OP') //Text when you hover the Small image
     .addButton('Im Botu ', 'https://youtube.com/@Imbotu?feature=shared')
     .addButton('Im Botu ', 'https://dsc.gg/botugamerop');
