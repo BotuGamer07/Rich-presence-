@@ -30,12 +30,12 @@ client.on('ready', async () => {
     .setName('Gamer Botu')
     .setDetails(`THE NAME IT SHOWS YOUR STREAMING [${formatTime()}]`)
     .setStartTimestamp(Date.now())
- .setAssetsLargeImage('https://media.discordapp.net/attachments/1217743630492500069/1218824472459612230/a_a790663307c1da9aaa975325da319a97.gif?ex=660911be&is=65f69cbe&hm=6ea9bdb0063becaa959067099046ceb341fb57c9a6788e35925d402ff8653552&') //You can put links in tenor or discord and etc.
-    .setAssetsLargeText('Botu') //Text when you hover the Large image
-    .setAssetsSmallImage('https://media.discordapp.net/attachments/1217743630492500069/1218824405661122620/457d5404-3ffc-4714-a2ff-a00e5db93d26.jpg?ex=660911ae&is=65f69cae&hm=7d84f9f91804f01362bd6e648aea559fbe68c7752cd631cb873ae4865b6d7c53&') //You can put links in tenor or discord and etc.
-    .setAssetsSmallText('OP') //Text when you hover the Small image
-    .addButton('Gamer Botu ', 'https://youtube.com/@Imbotu?feature=shared')
-    .addButton('Gamer Botu ', 'https://discord.com/invite/HZaurxBxFq');
+ .setAssetsLargeImage('https://media.discordapp.net/attachments/1242932547659501640/1245856238407909427/a_251d4e9c5504e98fa0d56832dc55da94_1.gif?ex=665a458a&is=6658f40a&hm=2d2f1b840b1a75ff2d32ad5d8a2c284f09a4cf1cbf8be39545718cd29479e87d&') //You can put links in tenor or discord and etc.
+    .setAssetsLargeText('Lord') //Text when you hover the Large image
+    .setAssetsSmallImage('https://media.discordapp.net/attachments/1242932547659501640/1245856237908922502/a_22fcb441e8a064bee1fe9d704e5bec52.gif?ex=665a458a&is=6658f40a&hm=b1066259b3fc69cc74851f2802ce2c0aa3276318cd7a3b9d77159450f4d9c3bc&') //You can put links in tenor or discord and etc.
+    .setAssetsSmallText('Botu') //Text when you hover the Small image
+    .addButton('YT', 'https://youtube.com/@wolfisback3461?feature=shared')
+    .addButton('DC', 'https://discord.com/invite/mRFzXjw7Jt');
 
   client.user.setActivity(r);
   client.user.setPresence({ status: "dnd" }); //dnd, online, idle, offline
@@ -44,7 +44,7 @@ client.on('ready', async () => {
   setInterval(() => {
     const newTime = formatTime();
     if (newTime !== prevTime) {
-      const newDetails = `Botu on Top [${newTime}]`;
+      const newDetails = `Botu always on Top[${newTime}]`;
       r.setDetails(newDetails);
       client.user.setActivity(r);
       prevTime = newTime;
