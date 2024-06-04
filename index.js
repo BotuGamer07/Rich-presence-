@@ -27,15 +27,15 @@ client.on('ready', async () => {
     .setType('STREAMING')
     .setURL('https://twitch.tv/gemop') //Must be a youtube video link 
     .setState('Botu on Top')
-    .setName('Gamer Botu')
+    .setName('BOTU')
     .setDetails(`THE NAME IT SHOWS YOUR STREAMING [${formatTime()}]`)
     .setStartTimestamp(Date.now())
- .setAssetsLargeImage('https://media.discordapp.net/attachments/1242932547659501640/1245856238407909427/a_251d4e9c5504e98fa0d56832dc55da94_1.gif?ex=665a458a&is=6658f40a&hm=2d2f1b840b1a75ff2d32ad5d8a2c284f09a4cf1cbf8be39545718cd29479e87d&') //You can put links in tenor or discord and etc.
+ .setAssetsLargeImage('https://media.discordapp.net/attachments/1242932547659501640/1247379504943337582/3c3d83b3953c1dfbb42946042ddf67c6.gif?ex=665fd031&is=665e7eb1&hm=03f5e6ca80a0c71ab0a7426f62cfb59240f8b6fc5b4796f0299be89e4d9a34cb&') //You can put links in tenor or discord and etc.
     .setAssetsLargeText('Lord') //Text when you hover the Large image
-    .setAssetsSmallImage('https://media.discordapp.net/attachments/1242932547659501640/1245856237908922502/a_22fcb441e8a064bee1fe9d704e5bec52.gif?ex=665a458a&is=6658f40a&hm=b1066259b3fc69cc74851f2802ce2c0aa3276318cd7a3b9d77159450f4d9c3bc&') //You can put links in tenor or discord and etc.
+    .setAssetsSmallImage('https://media.discordapp.net/attachments/1242932547659501640/1247379504326770758/IMG_0731.jpg?ex=665fd031&is=665e7eb1&hm=fa2c38339cd96e49055b482983fe194fa99a46eb4d795e0455b40d2e4d9669c3&') //You can put links in tenor or discord and etc.
     .setAssetsSmallText('Botu') //Text when you hover the Small image
-    .addButton('YT', 'https://youtube.com/@wolfisback3461?feature=shared')
-    .addButton('DC', 'https://discord.com/invite/mRFzXjw7Jt');
+    .addButton('Youtube', 'https://youtube.com/@botu-mp3qv?feature=shared')
+    .addButton('Discord', 'https://discord.com/invite/5cxxSVjmvM');
 
   client.user.setActivity(r);
   client.user.setPresence({ status: "dnd" }); //dnd, online, idle, offline
